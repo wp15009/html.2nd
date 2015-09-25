@@ -195,7 +195,7 @@ article section:nth-of-type(odd) figcaption{text-align: right;}
 
 /*======PC用の設定======*/
 
-@media only screen and (min-width: 900px;){
+@media only screen and (min-width: 900px){
 
 
 /*３段組み*/
@@ -207,32 +207,35 @@ article div[itemprop="articleBody"]
 article section{width: 288px;
                 margin-right: 18px;
                 box-sizing: border-box;
-                -moz-box-sizing: boeder-box;
+                -moz-box-sizing: border-box;
                 -webkit-box-sizing: border-box;
                 overflow: visible;}
 
 article section h1 {height: 48px;
                     line-height: 1.2;}
 
-article section:nth-of-type(1n) figure {float: none;
-                                        margin: 0;}
+article section:nth-of-type(1n) figure 
+                   {float: none;
+                    margin: 0;}
 
-article section:nth-of-type(1n) figcaption {text-align: center;
-                                            margin-bottom: 15px;}
+article section:nth-of-type(1n) figcaption 
+                   {text-align: center;
+                    margin-bottom: 15px;}
 
 /* ３段組み　IE8~9 & Opera */
 article section {clear: none;
                  float: left;
                  position: relative;}
 
-article section + section + section {margin-right: 0;}
+article section + section + section 
+{margin-right: 0;}
 
 }
 
 
 /*======タブレット用の設定======*/
 
-@media only screen and (min-width: 600px;)and (max-width: 899px;){
+@media only screen and (min-width: 600px)and (max-width: 899px){
 
 div#container{width: 100%;
               box-sizing: border-box;
@@ -251,7 +254,7 @@ nav ul li a {width: 100px;}
 }
 
 /*======スマートフォン用の設定======*/
-@media only screen and(max-width: 599px;){
+@media only screen and(max-width: 599px){
 
 div#container{width: 100%;
               box-sizing: border-box;
